@@ -1,0 +1,35 @@
+#word-color-red{
+  color: red;
+}
+
+.word-color-blue{
+  color: blue;
+}
+
+#ID1{
+  background: red;
+}
+
+.CLASS1{
+  background: yellow;
+}
+
+#ID2{
+  background: red;
+}
+
+#ID3{
+  background: red;
+}
+
+.CLASS2{
+  background: yellow;
+}
+
+.CLASS3{
+  background: yellow;
+}
+
+.big{
+  font-size: x-large
+}

@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+.gazo {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/mv2.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.hone{
+  margin: 0 auto;
+  padding: 20px;
+  color: gray;
+}
+
+.flexnisuru{
+  width: 840px;
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.gazov2{
+  display:flex;
+  flex-flow: column;
+  padding-bottom: 10px;
+}
+
+.bun{
+  padding: 30px 0;
+  line-height: 25px;
+  color: gray;
+  font-weight: bold;
+  border-bottom: 1px  solid gray;
+}
+
+.yourl{
+ color: gray;
+ font-weight:bold;
+}
+
+.bunue{
+  padding-bottom: 30px;
+  line-height: 25px;
+  color: gray;
+  font-weight: bold;
+   border-bottom: 1px  solid gray;
+}
+
+.bunshita{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 25px;
+  color: gray;
+  font-weight: bold;
+  border-bottom: 1px  solid gray;
+}

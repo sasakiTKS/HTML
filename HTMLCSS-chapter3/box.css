@@ -1,0 +1,49 @@
+.box1{
+  width: 800px;
+  height: 800px;
+  background-color: #000fff;
+  margin: 5px;
+  padding: 10px;
+}
+
+/*border（枠線）には、solidのほかに、double（二重線）、dashed（破線）、dotted（点線）などがあります。*/
+/*border-top-width: px;      /* 上側に5pxのborderを指定
+border-right-width: px;    /* 右側に5pxのborderを指定 */
+/*border-bottom-width: px;   /* 下側に5pxのborderを指定
+border-left-width: px;     /* 左側に5pxのborderを指定 */
+
+.box2 {
+  width: 450px;
+  height: 400px;
+  background-color: #fff000;
+  border: 15px solid black;
+   padding: 50px 100px 150px 200px ;
+}
+
+.box3{
+  width: 350px;
+  height: 350px;
+  background-color: #00ff00;
+  border-right: double pink;
+  border-right-width: 10px;
+  border-bottom: dashed orange;
+  border-bottom-width: 10px;
+  border-top: dotted white;
+  border-top-width: 10px;
+  border-left: solid violet;
+  border-left-width: 10px;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+
+/*margin-top: 40px;    /* 上側に40pxのmarginを指定 */
+/*margin-right: 40px;  /* 右側に40pxのmarginを指定 */
+/*margin-bottom: 40px; /* 下側に40pxのmarginを指定 */
+/*margin-left: 40px;   /* 左側に40pxのmarginを指定 */
+/*複数の値をまとめて指定する
+marginやpaddingの後に並ぶ値は、方向や書き方が決まっています。
+
+margin(padding): 1px ; /* 値1つは、上下左右 */
+/*margin(padding): 1px 2px ;  /* 値2つは、上下 左右 */
+/*margin(padding): 1px 2px 3px ;  /* 値3つは、上 左右 下 */
+/*margin(padding): 1px 2px 3px 4px ;  /* 値4つは、上 右 下 左 （時計まわり）*/
